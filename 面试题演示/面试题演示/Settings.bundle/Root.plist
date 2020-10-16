@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>啊哈哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈哈哈哈哈假假按揭😄😜😄啊哈哈👀啊卡卡卡是卡卡卡是卡卡是看看上课卡斯柯萨卡斯卡萨克斯开始扩散卡死卡死啊哈哈哈哈哈哈哈哈哈哈哈哈哈假假按揭😄😜😄啊哈哈👀啊卡卡卡是卡卡卡是卡卡是看看上课卡斯柯萨卡斯卡萨克斯开始扩散卡死卡死哈哈假假按揭😄😜😄啊哈哈👀啊卡卡卡是卡卡卡是卡卡是看看上课卡斯柯萨卡斯卡萨克斯开始扩散卡死卡死</string>
+			<key>Key</key>
+			<string>XXOO-ios</string>
+			<key>DefaultValue</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>组头标题</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>输入框标题</string>
+			<key>Key</key>
+			<string>name_preference</string>
+			<key>DefaultValue</key>
+			<string>请输入密码哈哈😄😄</string>
+			<key>IsSecure</key>
+			<true/>
+			<key>KeyboardType</key>
+			<string>NumberPad</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>开关切换</string>
+			<key>Key</key>
+			<string>enabled_preference</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+			<key>Key</key>
+			<string>slider_preference</string>
+			<key>DefaultValue</key>
+			<real>0.5</real>
+			<key>MinimumValue</key>
+			<integer>0</integer>
+			<key>MaximumValue</key>
+			<integer>1</integer>
+			<key>MinimumValueImage</key>
+			<string></string>
+			<key>MaximumValueImage</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>2020-10-15 14:12:28.990825+0800 面试题演示[64382:1706172] arr2 (null)
+2020-10-15 14:12:28.990964+0800 面试题演示[64382:1706172] arr3 (
+    1,
+    2,
+    3,
+    5
+)
+2020-10-15 14:12:28.991068+0800 面试题演示[64382:1706172] arr4 (null)
+</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>VPN开关</string>
+			<key>Key</key>
+			<string>xxxxpppp</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Key</key>
+			<string>multi_select</string>
+			<key>DefaultValue</key>
+			<string></string>
+			<key>Title</key>
+			<string>多选</string>
+			<key>Titles</key>
+			<array>
+				<string>男</string>
+				<string>女</string>
+				<string>性别跨越者</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>boy</string>
+				<string>girl</string>
+				<string>unknow</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
