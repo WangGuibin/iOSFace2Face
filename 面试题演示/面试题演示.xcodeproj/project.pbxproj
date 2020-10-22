@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA1E8AC6253C318300049305 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1E8AC5253C318300049305 /* AppDelegate.m */; };
+		CA1E8AC9253C318300049305 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1E8AC8253C318300049305 /* SceneDelegate.m */; };
+		CA1E8ACC253C318300049305 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1E8ACB253C318300049305 /* ViewController.m */; };
+		CA1E8ACF253C318300049305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1E8ACD253C318300049305 /* Main.storyboard */; };
+		CA1E8AD1253C318700049305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1E8AD0253C318700049305 /* Assets.xcassets */; };
+		CA1E8AD4253C318700049305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1E8AD2253C318700049305 /* LaunchScreen.storyboard */; };
+		CA1E8AD7253C318700049305 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1E8AD6253C318700049305 /* main.m */; };
+		CA1E8ADF253C31B500049305 /* Animatial.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1E8ADE253C31B500049305 /* Animatial.m */; };
 		CAAFAFF4253819A400D3BA22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAFAFF3253819A400D3BA22 /* AppDelegate.m */; };
 		CAAFAFF7253819A400D3BA22 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAFAFF6253819A400D3BA22 /* SceneDelegate.m */; };
 		CAAFAFFA253819A400D3BA22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAFAFF9253819A400D3BA22 /* ViewController.m */; };
@@ -17,9 +25,24 @@
 		CAAFB00D25381D1C00D3BA22 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CAAFB00C25381D1C00D3BA22 /* Settings.bundle */; };
 		CAAFB01E253992D200D3BA22 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAFB01D253992D200D3BA22 /* Cat.m */; };
 		CAAFB022253994F300D3BA22 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAFB021253994F300D3BA22 /* Dog.m */; };
+		CAAFB027253AB0D400D3BA22 /* NSString+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAFB026253AB0D400D3BA22 /* NSString+Extra.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA1E8AC2253C318300049305 /* 发送消息.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "发送消息.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1E8AC4253C318300049305 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA1E8AC5253C318300049305 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA1E8AC7253C318300049305 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CA1E8AC8253C318300049305 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CA1E8ACA253C318300049305 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA1E8ACB253C318300049305 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA1E8ACE253C318300049305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA1E8AD0253C318700049305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA1E8AD3253C318700049305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA1E8AD5253C318700049305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA1E8AD6253C318700049305 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA1E8ADD253C31B500049305 /* Animatial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animatial.h; sourceTree = "<group>"; };
+		CA1E8ADE253C31B500049305 /* Animatial.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animatial.m; sourceTree = "<group>"; };
 		CAAFAFEF253819A400D3BA22 /* 面试题演示.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "面试题演示.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAAFAFF2253819A400D3BA22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CAAFAFF3253819A400D3BA22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,9 +60,18 @@
 		CAAFB01D253992D200D3BA22 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 		CAAFB020253994F300D3BA22 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		CAAFB021253994F300D3BA22 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		CAAFB025253AB0D400D3BA22 /* NSString+Extra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extra.h"; sourceTree = "<group>"; };
+		CAAFB026253AB0D400D3BA22 /* NSString+Extra.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extra.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CA1E8ABF253C318300049305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CAAFAFEC253819A400D3BA22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -50,10 +82,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA1E8AC3253C318300049305 /* 发送消息 */ = {
+			isa = PBXGroup;
+			children = (
+				CA1E8AC4253C318300049305 /* AppDelegate.h */,
+				CA1E8AC5253C318300049305 /* AppDelegate.m */,
+				CA1E8AC7253C318300049305 /* SceneDelegate.h */,
+				CA1E8AC8253C318300049305 /* SceneDelegate.m */,
+				CA1E8ACA253C318300049305 /* ViewController.h */,
+				CA1E8ACB253C318300049305 /* ViewController.m */,
+				CA1E8ADD253C31B500049305 /* Animatial.h */,
+				CA1E8ADE253C31B500049305 /* Animatial.m */,
+				CA1E8ACD253C318300049305 /* Main.storyboard */,
+				CA1E8AD0253C318700049305 /* Assets.xcassets */,
+				CA1E8AD2253C318700049305 /* LaunchScreen.storyboard */,
+				CA1E8AD5253C318700049305 /* Info.plist */,
+				CA1E8AD6253C318700049305 /* main.m */,
+			);
+			path = "发送消息";
+			sourceTree = "<group>";
+		};
 		CAAFAFE6253819A400D3BA22 = {
 			isa = PBXGroup;
 			children = (
 				CAAFAFF1253819A400D3BA22 /* 面试题演示 */,
+				CA1E8AC3253C318300049305 /* 发送消息 */,
 				CAAFAFF0253819A400D3BA22 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				CAAFAFEF253819A400D3BA22 /* 面试题演示.app */,
+				CA1E8AC2253C318300049305 /* 发送消息.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +129,8 @@
 				CAAFAFF6253819A400D3BA22 /* SceneDelegate.m */,
 				CAAFAFF8253819A400D3BA22 /* ViewController.h */,
 				CAAFAFF9253819A400D3BA22 /* ViewController.m */,
+				CAAFB025253AB0D400D3BA22 /* NSString+Extra.h */,
+				CAAFB026253AB0D400D3BA22 /* NSString+Extra.m */,
 				CAAFB01C253992D200D3BA22 /* Cat.h */,
 				CAAFB01D253992D200D3BA22 /* Cat.m */,
 				CAAFB020253994F300D3BA22 /* Dog.h */,
@@ -92,6 +148,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CA1E8AC1253C318300049305 /* 发送消息 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1E8ADA253C318700049305 /* Build configuration list for PBXNativeTarget "发送消息" */;
+			buildPhases = (
+				CA1E8ABE253C318300049305 /* Sources */,
+				CA1E8ABF253C318300049305 /* Frameworks */,
+				CA1E8AC0253C318300049305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "发送消息";
+			productName = "发送消息";
+			productReference = CA1E8AC2253C318300049305 /* 发送消息.app */;
+			productType = "com.apple.product-type.application";
+		};
 		CAAFAFEE253819A400D3BA22 /* 面试题演示 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAAFB008253819A800D3BA22 /* Build configuration list for PBXNativeTarget "面试题演示" */;
@@ -117,6 +190,9 @@
 			attributes = {
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					CA1E8AC1253C318300049305 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 					CAAFAFEE253819A400D3BA22 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -136,11 +212,22 @@
 			projectRoot = "";
 			targets = (
 				CAAFAFEE253819A400D3BA22 /* 面试题演示 */,
+				CA1E8AC1253C318300049305 /* 发送消息 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CA1E8AC0253C318300049305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1E8AD4253C318700049305 /* LaunchScreen.storyboard in Resources */,
+				CA1E8AD1253C318700049305 /* Assets.xcassets in Resources */,
+				CA1E8ACF253C318300049305 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CAAFAFED253819A400D3BA22 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -155,6 +242,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CA1E8ABE253C318300049305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1E8ADF253C31B500049305 /* Animatial.m in Sources */,
+				CA1E8ACC253C318300049305 /* ViewController.m in Sources */,
+				CA1E8AC6253C318300049305 /* AppDelegate.m in Sources */,
+				CA1E8AD7253C318700049305 /* main.m in Sources */,
+				CA1E8AC9253C318300049305 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CAAFAFEB253819A400D3BA22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -164,6 +263,7 @@
 				CAAFAFF4253819A400D3BA22 /* AppDelegate.m in Sources */,
 				CAAFB005253819A800D3BA22 /* main.m in Sources */,
 				CAAFAFF7253819A400D3BA22 /* SceneDelegate.m in Sources */,
+				CAAFB027253AB0D400D3BA22 /* NSString+Extra.m in Sources */,
 				CAAFB01E253992D200D3BA22 /* Cat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,6 +271,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		CA1E8ACD253C318300049305 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA1E8ACE253C318300049305 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA1E8AD2253C318700049305 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA1E8AD3253C318700049305 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		CAAFAFFB253819A400D3BA22 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -190,6 +306,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CA1E8AD8253C318700049305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E27WNKVHV9;
+				INFOPLIST_FILE = "发送消息/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChangeWorld.CoderWGB.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA1E8AD9253C318700049305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E27WNKVHV9;
+				INFOPLIST_FILE = "发送消息/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChangeWorld.CoderWGB.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		CAAFB006253819A800D3BA22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -341,6 +493,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CA1E8ADA253C318700049305 /* Build configuration list for PBXNativeTarget "发送消息" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1E8AD8253C318700049305 /* Debug */,
+				CA1E8AD9253C318700049305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CAAFAFEA253819A400D3BA22 /* Build configuration list for PBXProject "面试题演示" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -8,6 +8,7 @@
 #import "ViewController.h"
 #import "Cat.h"
 #import <objc/runtime.h>
+#import "NSString+Extra.h"
 
 /// 敲代码理解 消息转发机制
 @interface ViewController ()
@@ -32,6 +33,21 @@
     SEL selector = NSSelectorFromString(@"sayHi:");
     Cat *cat = [Cat new];
     ((void (*)(id, SEL,id))[cat methodForSelector:selector])(cat, selector,@"老虎🐅");
+    
+    NSString * str = @"今天天气不错,去哪里逛逛好呢?!?";
+    NSLog(@"%@",[str substringToIndex:9]);
+    
+  __block int number = 10; //__block修饰之后地址保持一致了
+   dispatch_block_t block = ^(void){
+       number = 20;
+       NSLog(@"block内: %p %d",&number,number);
+   };
+   number = 11;
+    NSLog(@"block外执行之前: %p %d",&number,number);
+   block();
+    NSLog(@"block外执行完: %p %d",&number,number);
+
+    
 }
 
 
