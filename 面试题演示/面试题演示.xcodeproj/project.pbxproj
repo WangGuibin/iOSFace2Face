@@ -15,6 +15,13 @@
 		CA1E8AD4253C318700049305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1E8AD2253C318700049305 /* LaunchScreen.storyboard */; };
 		CA1E8AD7253C318700049305 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1E8AD6253C318700049305 /* main.m */; };
 		CA1E8ADF253C31B500049305 /* Animatial.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1E8ADE253C31B500049305 /* Animatial.m */; };
+		CA1E8B632547EECE00049305 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1E8B622547EECE00049305 /* AppDelegate.m */; };
+		CA1E8B662547EECE00049305 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1E8B652547EECE00049305 /* SceneDelegate.m */; };
+		CA1E8B692547EECE00049305 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1E8B682547EECE00049305 /* ViewController.m */; };
+		CA1E8B6C2547EECE00049305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1E8B6A2547EECE00049305 /* Main.storyboard */; };
+		CA1E8B6E2547EED200049305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1E8B6D2547EED200049305 /* Assets.xcassets */; };
+		CA1E8B712547EED200049305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1E8B6F2547EED200049305 /* LaunchScreen.storyboard */; };
+		CA1E8B742547EED200049305 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1E8B732547EED200049305 /* main.m */; };
 		CAAFAFF4253819A400D3BA22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAFAFF3253819A400D3BA22 /* AppDelegate.m */; };
 		CAAFAFF7253819A400D3BA22 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAFAFF6253819A400D3BA22 /* SceneDelegate.m */; };
 		CAAFAFFA253819A400D3BA22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAFAFF9253819A400D3BA22 /* ViewController.m */; };
@@ -43,6 +50,18 @@
 		CA1E8AD6253C318700049305 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA1E8ADD253C31B500049305 /* Animatial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animatial.h; sourceTree = "<group>"; };
 		CA1E8ADE253C31B500049305 /* Animatial.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animatial.m; sourceTree = "<group>"; };
+		CA1E8B5F2547EECD00049305 /* 寻找出现次数最多的数.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "寻找出现次数最多的数.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1E8B612547EECE00049305 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA1E8B622547EECE00049305 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA1E8B642547EECE00049305 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CA1E8B652547EECE00049305 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CA1E8B672547EECE00049305 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA1E8B682547EECE00049305 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA1E8B6B2547EECE00049305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA1E8B6D2547EED200049305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA1E8B702547EED200049305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA1E8B722547EED200049305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA1E8B732547EED200049305 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CAAFAFEF253819A400D3BA22 /* 面试题演示.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "面试题演示.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAAFAFF2253819A400D3BA22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CAAFAFF3253819A400D3BA22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -66,6 +85,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		CA1E8ABF253C318300049305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1E8B5C2547EECD00049305 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -102,11 +128,30 @@
 			path = "发送消息";
 			sourceTree = "<group>";
 		};
+		CA1E8B602547EECE00049305 /* 寻找出现次数最多的数 */ = {
+			isa = PBXGroup;
+			children = (
+				CA1E8B612547EECE00049305 /* AppDelegate.h */,
+				CA1E8B622547EECE00049305 /* AppDelegate.m */,
+				CA1E8B642547EECE00049305 /* SceneDelegate.h */,
+				CA1E8B652547EECE00049305 /* SceneDelegate.m */,
+				CA1E8B672547EECE00049305 /* ViewController.h */,
+				CA1E8B682547EECE00049305 /* ViewController.m */,
+				CA1E8B6A2547EECE00049305 /* Main.storyboard */,
+				CA1E8B6D2547EED200049305 /* Assets.xcassets */,
+				CA1E8B6F2547EED200049305 /* LaunchScreen.storyboard */,
+				CA1E8B722547EED200049305 /* Info.plist */,
+				CA1E8B732547EED200049305 /* main.m */,
+			);
+			path = "寻找出现次数最多的数";
+			sourceTree = "<group>";
+		};
 		CAAFAFE6253819A400D3BA22 = {
 			isa = PBXGroup;
 			children = (
 				CAAFAFF1253819A400D3BA22 /* 面试题演示 */,
 				CA1E8AC3253C318300049305 /* 发送消息 */,
+				CA1E8B602547EECE00049305 /* 寻找出现次数最多的数 */,
 				CAAFAFF0253819A400D3BA22 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,6 +161,7 @@
 			children = (
 				CAAFAFEF253819A400D3BA22 /* 面试题演示.app */,
 				CA1E8AC2253C318300049305 /* 发送消息.app */,
+				CA1E8B5F2547EECD00049305 /* 寻找出现次数最多的数.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,6 +211,23 @@
 			productReference = CA1E8AC2253C318300049305 /* 发送消息.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CA1E8B5E2547EECD00049305 /* 寻找出现次数最多的数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1E8B772547EED200049305 /* Build configuration list for PBXNativeTarget "寻找出现次数最多的数" */;
+			buildPhases = (
+				CA1E8B5B2547EECD00049305 /* Sources */,
+				CA1E8B5C2547EECD00049305 /* Frameworks */,
+				CA1E8B5D2547EECD00049305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "寻找出现次数最多的数";
+			productName = "寻找出现次数最多的数";
+			productReference = CA1E8B5F2547EECD00049305 /* 寻找出现次数最多的数.app */;
+			productType = "com.apple.product-type.application";
+		};
 		CAAFAFEE253819A400D3BA22 /* 面试题演示 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAAFB008253819A800D3BA22 /* Build configuration list for PBXNativeTarget "面试题演示" */;
@@ -193,6 +256,9 @@
 					CA1E8AC1253C318300049305 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					CA1E8B5E2547EECD00049305 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 					CAAFAFEE253819A400D3BA22 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -213,6 +279,7 @@
 			targets = (
 				CAAFAFEE253819A400D3BA22 /* 面试题演示 */,
 				CA1E8AC1253C318300049305 /* 发送消息 */,
+				CA1E8B5E2547EECD00049305 /* 寻找出现次数最多的数 */,
 			);
 		};
 /* End PBXProject section */
@@ -225,6 +292,16 @@
 				CA1E8AD4253C318700049305 /* LaunchScreen.storyboard in Resources */,
 				CA1E8AD1253C318700049305 /* Assets.xcassets in Resources */,
 				CA1E8ACF253C318300049305 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1E8B5D2547EECD00049305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1E8B712547EED200049305 /* LaunchScreen.storyboard in Resources */,
+				CA1E8B6E2547EED200049305 /* Assets.xcassets in Resources */,
+				CA1E8B6C2547EECE00049305 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +328,17 @@
 				CA1E8AC6253C318300049305 /* AppDelegate.m in Sources */,
 				CA1E8AD7253C318700049305 /* main.m in Sources */,
 				CA1E8AC9253C318300049305 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1E8B5B2547EECD00049305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1E8B692547EECE00049305 /* ViewController.m in Sources */,
+				CA1E8B632547EECE00049305 /* AppDelegate.m in Sources */,
+				CA1E8B742547EED200049305 /* main.m in Sources */,
+				CA1E8B662547EECE00049305 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +371,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				CA1E8AD3253C318700049305 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CA1E8B6A2547EECE00049305 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA1E8B6B2547EECE00049305 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA1E8B6F2547EED200049305 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA1E8B702547EED200049305 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -337,6 +441,42 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ChangeWorld.CoderWGB.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA1E8B752547EED200049305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E27WNKVHV9;
+				INFOPLIST_FILE = "寻找出现次数最多的数/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChangeWorld.CoderWGB.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA1E8B762547EED200049305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E27WNKVHV9;
+				INFOPLIST_FILE = "寻找出现次数最多的数/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChangeWorld.CoderWGB.----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -498,6 +638,15 @@
 			buildConfigurations = (
 				CA1E8AD8253C318700049305 /* Debug */,
 				CA1E8AD9253C318700049305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1E8B772547EED200049305 /* Build configuration list for PBXNativeTarget "寻找出现次数最多的数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1E8B752547EED200049305 /* Debug */,
+				CA1E8B762547EED200049305 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
